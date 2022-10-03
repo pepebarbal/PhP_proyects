@@ -1,0 +1,70 @@
+/* unimportant styles here */
+
+    .container-fluid {
+      max-width: 85%;
+      margin: 20px auto;
+      border: 20px solid #efefef;
+      padding: 0;
+      background-color: #fff;
+      box-shadow: 2px 3px 5px rgba(0,0,0,.5);
+    }
+
+    /* important styles below */
+    table {
+      width: 100%;
+    }
+
+		.table-striped > tbody > tr:nth-of-type(odd) {
+			  background-color: #cccccc;
+		}
+
+		.Finde{
+				background-color: #ff9999;
+		}
+
+    .Fiesta{
+        background-color: #ffb3b3;
+    }
+
+    .Ini-fin{
+        background-color: #008ae6;
+    }
+
+    .table-wrapper {
+      overflow: hidden;
+      border-right: 1px solid #ccc;
+    }
+    .pinned {
+      width: 30%;
+      border-right: 1px solid #ccc;
+      float: left;
+    }
+    .scrollable {
+      float: right;
+      width: 69%;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+    th {
+      text-transform: uppercase;
+      text-align: center;
+      overflow: hidden;
+    }
+    td {
+      text-align: center;
+      vertical-align: middle;
+      overflow: hidden;
+      height: 30px;
+	  border:1px solid;
+    }
+    .pinned td {
+      position: relative;
+    }
+
+    .dialogo-form label{
+        margin-right: 1em;
+    }
+
+    .dialogo-form > div {
+        margin-bottom: 1em;
+    }
